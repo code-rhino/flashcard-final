@@ -1,5 +1,4 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import "./App.css";
 
@@ -10,11 +9,8 @@ import "./App.css";
 function App() {
   return (
     <div className="app-routes">
-      <Routes>
-        <Route path="/" element={<Layout />}/>
-          
-      </Routes>    
-      </div>
+      <Layout /> 
+    </div>
   );
 }
 
